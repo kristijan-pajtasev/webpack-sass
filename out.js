@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	(function() { var head = document.querySelector("head"); var style = document.createElement("style"); style.innerText="body { background: black;  }"})()
+	(function() { console.log("22");var head = document.querySelector("head"); var style = document.createElement("style"); style.innerText="body { background: black; color: white; }";head.appendChild(style);})()
 
 /***/ }
 /******/ ]);
