@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	(function() { '<style type="text/css">body { background: black;  }</style>' })()
+	(function() { var head = document.querySelector("head"); var style = document.createElement("style"); style.innerText="body { background: black;  }"})()
 
 /***/ }
 /******/ ]);

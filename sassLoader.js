@@ -8,5 +8,17 @@ module.exports = function(source) {
     //link.innerText
     //""
 
-    return `(function() { ${styleTag} })()`;
+    //var head = document.querySelector("head");
+    //var style = document.createElement("style");
+    //style.innerText = css;
+    //style.type = "text/javascript";
+    //head.appendChild(style);
+
+    //  var style = document.createElement("style"); style.innerText = ${css}; style.type = "text/javascript"; head.appendChild(style);
+
+    return `(function() { ` +
+        `var head = document.querySelector("head"); ` +
+            `var style = document.createElement("style"); ` +
+            `style.innerText="${css}"` +
+            `})()`;
 };
