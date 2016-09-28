@@ -1,12 +1,12 @@
 module.exports = {
-    entry: "./entry",
+    entry: "./test.scss",
     output: {
         filename: "out.js"
     },
     module: {
         loaders: [
             {
-                test: /\.js$/,
+                test: /\.scss$/,
                 loader: "./sassLoader"
             }
         ]
