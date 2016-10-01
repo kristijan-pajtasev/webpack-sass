@@ -1,5 +1,5 @@
 module.exports = {
-    entry: "./test.scss",
+    entry: "./sass/main.scss",
     output: {
         filename: "out.js"
     },
@@ -7,7 +7,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.scss$/,
-                loader: "./sassLoader"
+                loader: "webpack-sass"
             }
         ]
     }

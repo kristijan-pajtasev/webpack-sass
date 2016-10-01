@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	(function() { console.log("22");var head = document.querySelector("head"); var style = document.createElement("style"); style.innerText="body {  font-size: 24px; }body {  background: white;  color: red; }";head.appendChild(style);})()
+	(function() { console.log("22");var head = document.querySelector("head"); var style = document.createElement("style"); style.innerText="body, html {  position: relative;  width: 100%;  overflow-x: hidden;  padding: 0;  margin: 0; }* {  box-sizing: border-box; }body {  color: red;  background: #607D8B; }  body #content {    width: 1024px;    margin: auto;    background: rgba(255, 255, 255, 0.7);    padding: 8px; }@media screen and (max-width: 1024px) {  body #content {    width: 100%; } }";head.appendChild(style);})()
 
 /***/ }
 /******/ ]);

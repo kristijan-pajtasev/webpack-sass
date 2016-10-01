@@ -5,7 +5,7 @@ module.exports = function(source) {
         file: this.resourcePath
     }).css.toString().replace(/\n/gi, "");
 
-    return `(function() { console.log("22");` +
+    return `(function() { ` +
         `var head = document.querySelector("head"); ` +
             `var style = document.createElement("style"); ` +
             `style.innerText="${res}";` +

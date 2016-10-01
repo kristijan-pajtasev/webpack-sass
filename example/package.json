@@ -1,14 +1,14 @@
 {
-  "name": "webpack-sass",
-  "version": "2.0.0",
+  "name": "testing",
+  "version": "1.0.0",
   "description": "",
-  "main": "sassLoader.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^3.10.0"
+    "webpack-sass": "^1.0.4"
   }
 }

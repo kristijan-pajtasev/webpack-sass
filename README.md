@@ -1,2 +1,2 @@
 # webpack-sass
-Work in progress, do not use yet
+Ready for use, guide coming soon
