@@ -1,6 +1,6 @@
 {
   "name": "webpack-sass",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "main": "sassLoader.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "author": "Kristijan Pajtasev",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristijan-pajtasev/webpack-sass"
+  },
   "devDependencies": {
     "node-sass": "^3.10.0"
   }
