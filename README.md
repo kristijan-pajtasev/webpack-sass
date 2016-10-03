@@ -1,5 +1,6 @@
 # webpack-sass
 
+Webpack sass loader
 
 ## Instalation
 
