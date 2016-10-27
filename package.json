@@ -1,6 +1,6 @@
 {
   "name": "webpack-sass",
-  "version": "2.1.1",
+  "version": "2.2.1",
   "description": "",
   "main": "sassLoader.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/kristijan-pajtasev/webpack-sass"
   },
-  "devDependencies": {
+  "dependencies": {
     "node-sass": "^3.10.0"
   }
 }
